@@ -1,0 +1,10 @@
+{
+    "name": "openmage-strict/module-catalog-inventory",
+    "description": "Mage_CatalogInventory",
+    "license": "OSL-3.0",
+    "type": "magento-module",
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*",
+        "openmage-strict/module-catalog": "*"
+    }
+}

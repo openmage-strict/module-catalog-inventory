@@ -1,0 +1,6 @@
+src/app/code/core/Mage/CatalogInventory/                                app/code/core/Mage/CatalogInventory/
+src/app/design/frontend/base/default/layout/cataloginventory.xml        app/design/frontend/base/default/layout/cataloginventory.xml
+src/app/design/frontend/base/default/template/cataloginventory/         app/design/frontend/base/default/template/cataloginventory/
+src/app/design/frontend/rwd/default/template/cataloginventory/          app/design/frontend/rwd/default/template/cataloginventory/
+src/app/etc/modules/Mage_CatalogInventory.xml                           app/etc/modules/Mage_CatalogInventory.xml
+src/app/locale/en_US/Mage_CatalogInventory.csv                          app/locale/en_US/Mage_CatalogInventory.csv
