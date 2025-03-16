@@ -1,5 +1,4 @@
 <?php
-
 /**
  * OpenMage
  *
@@ -10,7 +9,7 @@
  * @category   Mage
  * @package    Mage_CatalogInventory
  * @copyright  Copyright (c) 2006-2020 Magento, Inc. (https://www.magento.com)
- * @copyright  Copyright (c) 2020-2024 The OpenMage Contributors (https://www.openmage.org)
+ * @copyright  Copyright (c) 2020-2023 The OpenMage Contributors (https://www.openmage.org)
  * @license    https://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
  */
 
@@ -59,7 +58,7 @@ abstract class Mage_CatalogInventory_Block_Stockqty_Abstract extends Mage_Core_B
     public function getThresholdQty()
     {
         if (!$this->hasData('threshold_qty')) {
-            $qty = Mage::getStoreConfigAsFloat(self::XML_PATH_STOCK_THRESHOLD_QTY);
+            $qty = (float) Mage::getStoreConfig(self::XML_PATH_STOCK_THRESHOLD_QTY);
             $this->setData('threshold_qty', $qty);
         }
         return $this->getData('threshold_qty');
